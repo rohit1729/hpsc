@@ -1,7 +1,7 @@
 hpsc
 ====
 
-hspcode.cc -- contains the parallel code for matrix multiplication which is done by parallelizing recursive(strassen) method of matrix multiplication.
+hspcode.cc -- contains the parallel code for matrix multiplication which is done by parallelizing recursive(strassen) method of matrix multiplication.I have used Open MP tasking model to acheive it.
 
 Matseq.cc-- contains serial implementation of matrix multiplication using strassen method.
 
@@ -15,8 +15,16 @@ Simple matrix multiplication - 1.14 seconds
 Strassen matrix multiplication (serial) - 0.6 seconds
 Strassen matrix multiplication (parallel) - 0.13 seconds
 
+
 About Machine:
 quad-core 2.5GHz i5 intel processor
+
+
+
+
+
+Sorry Sir, i was not able to complete the MPI program for parallelization.
+
 
 
 
