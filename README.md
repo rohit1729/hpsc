@@ -33,9 +33,6 @@ quad-core 2.5GHz i5 intel processor
 
 
 
-Sorry Sir, i was not able to complete the MPI program for parallelization.
-
-
 
 
 
