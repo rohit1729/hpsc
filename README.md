@@ -5,6 +5,11 @@ hspcode.cc -- contains the parallel code for matrix multiplication which is done
 
 Matseq.cc-- contains serial implementation of matrix multiplication using strassen method.
 
+execution time for Size N - 409
+Simple matrix multiplication - 3295 seconds
+Strassen matrix multiplication (serial) - 269 seconds
+Strassen matrix multiplication (parallel) - 151.889 seconds
+
 execution time for Size N - 2048
 Simple matrix multiplication - 281 seconds
 Strassen matrix multiplication (serial) - 31 seconds
