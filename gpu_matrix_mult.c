@@ -248,10 +248,7 @@ int main(int argc, char** argv)
         
 
     }
-    
-    // Print a brief summary detailing the results
-    //
-    printf("Computed '%d/%d' correct values!\n", correct, count);
+
     
     // Shutdown and cleanup
     //
