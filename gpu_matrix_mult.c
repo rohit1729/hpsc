@@ -60,12 +60,10 @@ int main(int argc, char** argv)
     cl_command_queue commands = NULL;          // compute command queue
     cl_program program=NULL;                 // compute program
     cl_kernel kernel=NULL;                   // compute kernel
-  
-    cl_mem input = NULL;                       // device memory used for the input array
-    cl_mem output= NULL;                      // device memory used for the output array
+                        
     cl_mem mat_gpu1=NULL;
     cl_mem mat_gpu2=NULL;
-    cl_mem output_gpu=NULL;
+    cl_mem output_gpu=NULL;    // device memory used for the output array
     cl_int res;
     cl_platform_id platform_id = NULL;
     cl_uint ret_num_devices;
@@ -252,8 +250,6 @@ int main(int argc, char** argv)
     
     // Shutdown and cleanup
     //
-    clReleaseMemObject(input);
-    clReleaseMemObject(output);
     clReleaseProgram(program);
     clReleaseKernel(kernel);
     clReleaseCommandQueue(commands);
